@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <!-- Style -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="row">
+    
+  </div>
+  <!-- Start your project here-->
+
+        <!--Main Sidebar-->
+        <div id="sidebar" class="sideBarr">
+              <!-- Sidebar -->
+              <nav id="sidebarMenu" class="sideBar collapse d-lg-block sidebar collapse bg-white">
+                <div class="position-sticky">
+                  <div class="list-group list-group-flush mx-3 mt-4">
+                    <a href="#" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
+                      <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Main dashboard</span>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action py-2 ripple active">
+                      <i class="fas fa-chart-area fa-fw me-3"></i><span>Webiste traffic</span>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-lock fa-fw me-3"></i><span>Password</span></a>
+                    <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-chart-line fa-fw me-3"></i><span>Analytics</span></a>
+                    <a href="#" class="list-group-item list-group-item-action py-2 ripple">
+                      <i class="fas fa-chart-pie fa-fw me-3"></i><span>SEO</span>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-chart-bar fa-fw me-3"></i><span>Orders</span></a>
+                    <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-globe fa-fw me-3"></i><span>International</span></a>
+                    <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-building fa-fw me-3"></i><span>Partners</span></a>
+                    <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-calendar fa-fw me-3"></i><span>Calendar</span></a>
+                    <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-users fa-fw me-3"></i><span>Users</span></a>
+                    <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-money-bill fa-fw me-3"></i><span>Sales</span></a>
+                  </div>
+                </div>
+              </nav>
+              <!-- Sidebar -->
+            </div>
+        <!--End Sidebar-->
+        <!-- Navbar -->
+        <div class="navBarr">
+        <nav id="main-navbar" class="navbar navBar navbar-expand-lg navbar-light bg-white fixed-top">
+          <!-- Container wrapper -->
+          <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#sidebarMenu"
+              aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">
+              <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="25"
+                alt="MDB Logo" loading="lazy" />
+            </a>
+            <!-- Search form -->
+            <form class="d-none d-md-flex input-group w-auto my-auto">
+              <input autocomplete="off" type="search" class="form-control rounded"
+                placeholder='Search (ctrl + "/" to focus)' style="min-width: 225px;" />
+              <span class="input-group-text border-0"><i class="fas fa-search"></i></span>
+            </form>
+
+            <!-- Right links -->
+            <ul class="navbar-nav ms-auto d-flex flex-row">
+              <!-- Notification dropdown -->
+              <li class="nav-item dropdown">
+                <a class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
+                  role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-bell"></i>
+                  <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="#">Some news</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another news</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Icon -->
+              <li class="nav-item">
+                <a class="nav-link me-3 me-lg-0" href="#">
+                  <i class="fas fa-fill-drip"></i>
+                </a>
+              </li>
+              <!-- Icon -->
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+
+              <!-- Icon dropdown -->
+              <li class="nav-item dropdown">
+                <a class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow" href="#" id="navbarDropdown"
+                  role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                  <i class="united kingdom flag m-0"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="united kingdom flag"></i>English
+                      <i class="fa fa-check text-success ms-2"></i></a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="flag-poland flag"></i>Polski</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="flag-china flag"></i>中文</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="flag-japan flag"></i>日本語</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="flag-germany flag"></i>Deutsch</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="flag-france flag"></i>Français</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="flag-spain flag"></i>Español</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="flag-russia flag"></i>Русский</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="flag-portugal flag"></i>Português</a>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Avatar -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#"
+                  id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp" class="rounded-circle"
+                    height="22" alt="Avatar" loading="lazy" />
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="#">My profile</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Settings</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Logout</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- Container wrapper -->
+        </nav>
+      </div>
+        <!--End Navbar -->
+        <!--Main layout Da el espacio del menu.-->
+        <main style="margin-top: 58px;">
+          <div class="container pt-4"></div>
+        </main>
+        <!--Main layout-->
+
+        <!--ms-1 y me-0 son las margenes de inicio(start) y final(end) que se aplican en todo momento.
+        me-lg-4 es un margen final que solo se aplica cuando tiene tamaño lg.-->
+  <div class="row justify-content-end ms-1 me-0 me-lg-4 mb-4">
+    <!--Cards-->
+    <div class="col-lg-9 col-sm-12">
+      
+      <div class="row gx-lg-5">
+
+        <!-- First column -->
+        <div class="col-lg-4 col-md-12 mb-6 mb-lg-0">
+
+          <div class="card">
+            <div class="card-body">
+              <p class="card-title text-muted">
+                Sales
+                <small class="text-muted" style="float:right">6 May - 7 May</small>
+              </p>
+              <p class="card-text" style="margin-bottom: 0px !important;">
+                $230,220
+              </p>
+              <p class="text-muted" style="margin-bottom: 0px !important;">
+                <span style="color:green">+55%</span><small>&nbsp; since last month</small>
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <!-- First column -->
+
+        <!-- Second column -->
+        <div class="col-lg-4 mb-6 mb-lg-0">
+
+          <div class="card">
+            <div class="card-body">
+              <p class="card-title text-muted">
+                Customer
+                <small class="text-muted" style="float:right">6 May - 7 May</small>
+              </p>
+              <p class="card-text" style="margin-bottom: 0px !important;">
+                $3.200
+              </p>
+              <p class="text-muted" style="margin-bottom: 0px !important;">
+                <span style="color:green">+12%</span><small>&nbsp; since last month</small>
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <!-- Second column -->
+
+        <!-- Third column -->
+        <div class="col-lg-4 mb-6 mb-lg-0">
+
+          <div class="card">
+            <div class="card-body">
+              <p class="card-title text-muted">
+                Avg. Revenue
+                <small class="text-muted" style="float:right">6 May - 7 May</small>
+              </p>
+              <p class="card-text" style="margin-bottom: 0px !important;">
+                $1.200
+              </p>
+              <p class="text-muted" style="margin-bottom: 0px !important;">
+                <span style="color:green">+213%</span><small>&nbsp; since last month</small>
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <!-- Third column -->
+
+      </div>
+    </div>
+    <!--End Cards-->
+  </div>
+
+  <!--Cards con imagenes-->
+  
+  <div class="row justify-content-end ms-1 me-0 me-lg-4 mb-4">
+
+    <div class="col-lg-3 col-sm-12">
+      <div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <h5 class="card-title p-3">Grafico</h5>
+          <img src="https://www.merkle.com/es/sites/es/files/inline-images/tarta_1_0.png" class="img-fluid"/>
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#!" class="btn btn-primary">Button</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-sm-12">
+      <div class="card align-middle">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="https://learn.microsoft.com/es-es/power-bi/visuals/media/power-bi-line-charts/power-bi-line.png" class="img-fluid"/>
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--COnfigurando la tabla
+  justify.content-end envia todo el contenido dentro al final del contenedor.-->
+  <div class="row justify-content-end ms-1 me-0 me-lg-4 mb-4">
+    <!--col-lg-9 asigna el tamaño del contenedor a 9 columnas en tamaño lg, y en tamaño a 12 columnas en vista sm-->
+    <div class="col-lg-9 col-sm-12">
+      <div class="table-responsive">
+        <table class="table align-middle mb-0 bg-white">
+          <thead class="bg-light">
+            <tr>
+              <th>Name</th>
+              <th>Title</th>
+              <th>Status</th>
+              <th>Position</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="d-flex align-items-center">
+                  <img
+                      src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+                      alt=""
+                      style="width: 45px; height: 45px"
+                      class="rounded-circle"
+                      />
+                  <div class="ms-3">
+                    <p class="fw-bold mb-1">John Doe</p>
+                    <p class="text-muted mb-0">john.doe@gmail.com</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <p class="fw-normal mb-1">Software engineer</p>
+                <p class="text-muted mb-0">IT department</p>
+              </td>
+              <td>
+                <span class="badge badge-success rounded-pill d-inline">Active</span>
+              </td>
+              <td>Senior</td>
+              <td>
+                <button type="button" class="btn btn-link btn-sm btn-rounded">
+                  Edit
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="d-flex align-items-center">
+                  <img
+                      src="https://mdbootstrap.com/img/new/avatars/6.jpg"
+                      class="rounded-circle"
+                      alt=""
+                      style="width: 45px; height: 45px"
+                      />
+                  <div class="ms-3">
+                    <p class="fw-bold mb-1">Alex Ray</p>
+                    <p class="text-muted mb-0">alex.ray@gmail.com</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <p class="fw-normal mb-1">Consultant</p>
+                <p class="text-muted mb-0">Finance</p>
+              </td>
+              <td>
+                <span class="badge badge-primary rounded-pill d-inline"
+                      >Onboarding</span
+                  >
+              </td>
+              <td>Junior</td>
+              <td>
+                <button
+                        type="button"
+                        class="btn btn-link btn-rounded btn-sm fw-bold"
+                        data-mdb-ripple-color="dark"
+                        >
+                  Edit
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="d-flex align-items-center">
+                  <img
+                      src="https://mdbootstrap.com/img/new/avatars/7.jpg"
+                      class="rounded-circle"
+                      alt=""
+                      style="width: 45px; height: 45px"
+                      />
+                  <div class="ms-3">
+                    <p class="fw-bold mb-1">Kate Hunington</p>
+                    <p class="text-muted mb-0">kate.hunington@gmail.com</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <p class="fw-normal mb-1">Designer</p>
+                <p class="text-muted mb-0">UI/UX</p>
+              </td>
+              <td>
+                <span class="badge badge-warning rounded-pill d-inline">Awaiting</span>
+              </td>
+              <td>Senior</td>
+              <td>
+                <button
+                        type="button"
+                        class="btn btn-link btn-rounded btn-sm fw-bold"
+                        data-mdb-ripple-color="dark"
+                        >
+                  Edit
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- End your project here-->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</body>
+
+</html>
